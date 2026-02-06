@@ -42,6 +42,9 @@
     line-height: 30px;
 
 }
+.text-center{
+    text-align: center;
+}
 /* Main Style */
 .font-open-sans{
   font-family: "Open Sans", sans-serif;
@@ -112,7 +115,7 @@ nav .menu a{
 }
 
 /* About part ta shuru */
-#about{
+#about,#skills,#resume{
     /* border: 2px solid red; */
     padding-top: 130px;
    
@@ -143,10 +146,7 @@ nav .menu a{
 }
 
 /* skills part ar kaaj shuru */
-#skills{
-    padding-top: 130px;
-    /* border: 2px solid blue; */
-}
+
 #skills .skills-container{
     width: 71%;
     max-width: 1140px;
@@ -177,4 +177,89 @@ nav .menu a{
     line-height: 28px;
     color: #757575;
     /* margin-bottom: 30px; */
+}
+/* Resusme part ta start*/
+#resume .resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+    
+}
+.resume-container .section-title{
+    color: #474747;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+.resume-card .card-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-card .card-info{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.resume-card .card-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    /* margin-bottom: 30px; */
+}
+/* Footer ar kaaj shuru */
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+footer .footer-container{
+   width: 71%;
+   max-width: 1140px;
+   /* border: 2px solid red; */
+   margin: 0 auto;
+   display: flex;
+   gap: 117px;
+}
+.footer-container .social{
+    max-width: 562px;
+}
+.footer-container h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container .social p{
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-container .icons a{
+    /* display: flex;
+    gap: 24px; */
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+.footer-container form textarea{
+    width: 461px;   
+    margin-bottom: 24px;
+    padding: 18px 31px;
+    border: none;
+    border-radius: 5px;
+
+    color: #757575;
 }
